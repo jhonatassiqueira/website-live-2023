@@ -1,0 +1,57 @@
+section#questions h2 {
+  text-align: center;
+}
+
+section#questions ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  list-style: none;
+}
+
+section#questions ul li {
+  min-height: 5.8rem;
+
+  border-bottom: 1px solid #f66b0e;
+
+  cursor: pointer;
+}
+
+section#questions div.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#questions div.header span {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+section#questions div.header svg {
+  color: #f66b0e;
+}
+
+section#questions div p {
+  display: none;
+
+  padding-block: 1.6rem;
+  font-size: 1.6rem;
+}
+
+section#questions div p.active {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  section#questions .container {
+    display: flex;
+    align-items: center;
+  }
+
+  section#questions ul,
+  section#questions button {
+    width: 53.9rem;
+  }
+}

@@ -1,0 +1,49 @@
+section#includes-finance h2 {
+  text-align: center;
+}
+
+section#includes-finance div.list-options {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+section#includes-finance div.list-options .option {
+  border: 1px solid #f66b0e;
+  padding: 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  border-radius: 8px;
+}
+
+section#includes-finance div.list-options .option svg {
+  color: #f66b0e;
+}
+
+@media (min-width: 1024px) {
+  section#includes-finance .container {
+    display: flex;
+  }
+
+  section#includes-finance div.list-options {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  section#includes-finance div.list-options .option {
+    min-width: 30%;
+  }
+
+  section#includes-finance a {
+    display: flex;
+    justify-content: center;
+  }
+
+  section#includes-finance a button {
+    width: 50%;
+  }
+}

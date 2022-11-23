@@ -1,0 +1,78 @@
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background: linear-gradient(180deg, #fff5ef 0%, #ffffff 100%), #ffffff;
+}
+
+section div.container {
+  position: relative;
+  width: 37.5rem;
+  padding-block: 3.2rem;
+  padding-inline: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+section.bg-gradient {
+  background: radial-gradient(
+    100% 3339.98% at 100% 0%,
+    #df5c05 0%,
+    #fd8940 100%
+  );
+}
+
+section#hero div.container {
+  margin-top: 8rem;
+}
+
+section#hero.wrapper-thanks {
+  height: 100vh;
+  justify-content: center;
+}
+
+section#hero.wrapper-thanks h2 {
+  color: #fff;
+  font-size: 5.2rem;
+  margin-bottom: 8rem;
+}
+
+section#hero.wrapper-thanks h3 {
+  color: #fff;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+}
+
+@media (min-width: 1024px) {
+  section div.container {
+    width: min(120rem, 100%);
+
+    gap: 4.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'A B';
+  }
+
+  section.col-full div.container {
+    grid-template-areas: 'A A';
+  }
+
+  section div.container .col-a,
+  section div.container .col-b {
+    align-self: center;
+  }
+
+  section div.container .col-a {
+    grid-area: A;
+  }
+
+  section div.container .col-b {
+    grid-area: B;
+  }
+
+  section div.container .col-full-a {
+    grid-area: A;
+  }
+}

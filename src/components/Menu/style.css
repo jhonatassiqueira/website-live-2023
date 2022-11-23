@@ -1,0 +1,237 @@
+nav#navigation {
+  position: fixed;
+  top: 0;
+
+  width: 100vw;
+  height: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: linear-gradient(180deg, #fff5ef 0%, #ffffff 100%), #ffffff;
+  box-shadow: 2px 1px 10px #202020;
+
+  z-index: 100;
+}
+
+nav#navigation div.wrapper {
+  width: 37.5rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+nav#navigation div.menu {
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+
+  transform: translateY(100%);
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+nav#navigation div.wrapper img {
+  width: 5.588rem;
+}
+
+nav#navigation div.wrapper svg {
+  cursor: pointer;
+}
+
+nav#navigation div.menu ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-top: 4rem;
+
+  font-weight: 600;
+  font-size: 2rem;
+
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+nav#navigation div.menu ul li a {
+  color: #202020;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav#navigation div.menu ul li a:hover {
+  color: #f66b0e;
+}
+
+nav#navigation div.menu ul li:hover ul {
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+}
+
+nav#navigation div.menu ul li ul {
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+
+  margin-top: 3.2rem;
+
+  transition: all 0.5s ease;
+}
+
+nav#navigation div.menu a.btn-client {
+  padding: 1.6rem 2.4rem;
+  margin-top: 3.2rem;
+
+  border: 1px solid #f66b0e;
+  border-radius: 0.8rem;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+
+  color: #f66b0e;
+}
+
+nav#navigation div.menu,
+nav#navigation .close-menu {
+  position: fixed;
+}
+
+nav#navigation div.menu,
+nav#navigation .close-menu,
+body.menu-expanded nav#navigation .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/*============================ MENU-EXPANDED ============================*/
+body.menu-expanded {
+  overflow: hidden;
+}
+
+body.menu-expanded nav#navigation {
+  padding-top: 4.4rem;
+  padding-bottom: 2.1rem;
+}
+
+body.menu-expanded > :not(nav) {
+  visibility: hidden;
+}
+
+body.menu-expanded nav#navigation a.logo,
+body.menu-expanded nav#navigation .close-menu {
+  position: relative;
+  visibility: visible;
+  z-index: 100;
+}
+
+body.menu-expanded nav#navigation div.menu {
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(180deg, #fff5ef 0%, #ffffff 100%), #ffffff;
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: 4rem;
+  padding-top: 8rem;
+
+  transition: transform 300ms;
+  transform: translateY(0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: auto;
+}
+
+body.menu-expanded nav#navigation div.menu,
+body.menu-expanded nav#navigation .close-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 1024px) {
+  nav#navigation div.wrapper {
+    width: min(120rem, 100%);
+    align-items: center;
+  }
+
+  nav#navigation .open-menu,
+  nav#navigation .close-menu {
+    display: none;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  nav#navigation div.menu {
+    position: relative;
+
+    transform: translateY(0);
+
+    visibility: visible;
+    opacity: 1;
+    gap: 3.2rem;
+
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /*reset in components*/
+  nav#navigation div.menu ul,
+  nav#navigation div.menu ul li ul,
+  nav#navigation div.menu a.btn-client {
+    margin: 0;
+  }
+
+  nav#navigation div.menu ul {
+    flex-direction: row;
+
+    align-items: center;
+  }
+
+  nav#navigation div.menu ul li ul {
+    position: absolute;
+    display: none;
+    visibility: visible;
+
+    opacity: 1;
+    height: auto;
+    padding: 1.6rem;
+
+    background-color: #f66b0e;
+    box-shadow: 2px 1px 10px #202020;
+    border-radius: 8px;
+
+    transition: all 0.5s ease;
+  }
+
+  nav#navigation div.menu ul li ul li {
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+
+  nav#navigation div.menu ul li ul a:hover {
+    color: #fff;
+  }
+
+  nav#navigation div.menu ul li:hover ul {
+    display: block;
+  }
+
+  nav#navigation div.menu a:nth-child(3) button {
+    display: none;
+    visibility: hidden;
+    margin-top: 0 !important;
+  }
+}

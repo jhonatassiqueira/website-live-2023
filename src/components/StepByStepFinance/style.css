@@ -1,0 +1,61 @@
+section#step-by-step-finance div.container {
+  color: #fff;
+}
+
+section#step-by-step-finance h2 {
+  text-align: center;
+}
+
+section#step-by-step-finance ul {
+  list-style: none;
+}
+
+ul.advantages-finance {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-bottom: 4.8rem;
+}
+
+ul.advantages-finance li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+ul.advantages-finance li .icon {
+  padding: 2rem;
+  background-color: #fb914e;
+  border-radius: 1.6rem;
+}
+
+ul.advantages-finance li span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.109rem;
+}
+
+@media (min-width: 1024px) {
+  section#step-by-step-finance .container {
+    display: flex;
+  }
+
+  section#step-by-step-finance ul.advantages-finance {
+    flex-direction: row;
+  }
+
+  section#step-by-step-finance ul.advantages-finance li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section#step-by-step-finance a {
+    display: flex;
+    justify-content: center;
+  }
+
+  section#step-by-step-finance a button {
+    width: 50%;
+  }
+}

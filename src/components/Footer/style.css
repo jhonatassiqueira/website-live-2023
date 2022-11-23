@@ -1,0 +1,82 @@
+section#footer {
+  background: none;
+  background-color: #202020;
+
+  color: #fff;
+}
+
+section#footer div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2.4rem;
+}
+
+section#footer div.container div {
+  text-align: center;
+}
+
+section#footer p {
+  font-size: 1.4rem;
+}
+
+section#footer a {
+  text-decoration: none;
+}
+
+section#footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  gap: 1.6rem;
+}
+
+section#footer ul li:hover {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+section#footer .logotipo img {
+  width: 5.588rem;
+}
+
+section#footer svg {
+  color: #fff;
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}

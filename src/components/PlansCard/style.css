@@ -1,0 +1,82 @@
+section#plans div.cards-plans {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+section#plans div.card {
+  border: 1px solid #f66b0e;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  gap: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#plans div.card.bold {
+  border: 5px solid #f66b0e;
+}
+
+section#plans div.card .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.8rem;
+}
+
+section#plans div.card .title svg {
+  color: #f66b0e;
+}
+
+section#plans div.card .title h2 {
+  margin: 0;
+}
+
+section#plans div.card ul {
+  width: 100%;
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+section#plans div.card ul li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+section#plans div.card ul li .check svg {
+  color: green;
+}
+
+section#plans div.card ul li .no-check svg {
+  color: #f66b0e;
+}
+
+section#plans div.card ul li span {
+  font-size: 1.4rem;
+}
+
+section#plans div.card button {
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  section#plans .container {
+    display: flex;
+  }
+
+  section#plans div.cards-plans {
+    flex-direction: row;
+  }
+
+  section#plans div.cards-plans .card {
+    min-width: 30%;
+    flex-grow: 1;
+  }
+}

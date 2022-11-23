@@ -1,0 +1,18 @@
+img {
+  max-width: 100%;
+}
+img.mt-46 {
+  margin-top: 4.6rem;
+}
+
+img.mt-24 {
+  margin-top: 2.4rem;
+}
+
+img.mb-64 {
+  margin-bottom: 6.4rem;
+}
+
+img.mb-24 {
+  margin-bottom: 2.4rem;
+}

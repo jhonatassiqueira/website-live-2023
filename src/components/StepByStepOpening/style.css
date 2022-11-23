@@ -1,0 +1,96 @@
+section#step-by-step-opening div.container {
+  color: #fff;
+}
+
+section#step-by-step-opening h2 {
+  text-align: center;
+}
+
+section#step-by-step-opening ul {
+  list-style: none;
+}
+
+ul.advantages-opening {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-bottom: 4.8rem;
+}
+
+ul.advantages-opening li {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+ul.advantages-opening li .icon {
+  padding: 2rem;
+  background-color: #fb914e;
+  border-radius: 1.6rem;
+}
+
+ul.advantages-opening li span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.109rem;
+}
+
+ul.services-complement-opening {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+
+  margin-bottom: 4.8rem;
+}
+
+ul.services-complement-opening li {
+  display: flex;
+  gap: 1.6rem;
+}
+
+ul.services-complement-opening li .icon {
+  background-color: #fb914e;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+ul.services-complement-opening h3 {
+  margin: 0;
+  margin-bottom: 0.4rem;
+
+  font-weight: 700;
+}
+
+ul.services-complement-opening p {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 1024px) {
+  section#step-by-step-opening .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  section#step-by-step-opening ul.advantages-opening,
+  section#step-by-step-opening ul.services-complement-opening {
+    flex-direction: row;
+  }
+
+  section#step-by-step-opening ul.advantages-opening li {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section#step-by-step-opening a {
+    display: flex;
+    justify-content: center;
+  }
+
+  section#step-by-step-opening a button {
+    width: 50%;
+  }
+}

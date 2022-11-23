@@ -1,0 +1,23 @@
+ul.list-check-aperture {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  list-style: none;
+  margin-bottom: 2.4rem;
+}
+
+ul.list-check-aperture li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+ul.list-check-aperture li svg {
+  color: #f66b0e;
+}
+
+ul.list-check-aperture li span {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
