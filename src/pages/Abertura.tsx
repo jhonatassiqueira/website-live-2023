@@ -29,7 +29,6 @@ export function Abertura(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/abertura-empresa" />
       </Helmet>
       
-      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -126,8 +125,6 @@ export function Abertura(){
       <Depositions url="#form-contact" callToAction="Quero abrir minha empresa!" />
       <Form service="Abertura de Empresa" idForm={21262018} />
       <Questions />
-
-      <Footer />
     </>
   )
 }

@@ -1,7 +1,7 @@
 import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { AppRoutes } from './App.routes'
-import { Footer } from './components/Footer'
-import { Menu } from './components/Menu'
+import { Footer } from './components/Footer';
+import { Menu } from './components/Menu';
 
 import './styles/global.css'
 
@@ -18,8 +18,10 @@ export function App() {
   }
 
   return (
-    <HashRouter>
+    <>
+      <Menu />
       <AppRoutes />
-    </HashRouter>
+      <Footer />
+    </>
   )
 }

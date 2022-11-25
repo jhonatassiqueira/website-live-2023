@@ -18,7 +18,6 @@ export function ObrigadoForm(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/obrigado" />
       </Helmet>
 
-      <Menu />
       <Wrapper id="hero" className="wrapper-thanks bg-gradient">
         <WrapperCol className="col-a">
           <Title>Muito obrigado</Title>
@@ -28,8 +27,6 @@ export function ObrigadoForm(){
           <Imagem src="/img/TI2.png"></Imagem>
         </WrapperCol>
       </Wrapper>
-
-      <Footer />
     </>
   )
 }
