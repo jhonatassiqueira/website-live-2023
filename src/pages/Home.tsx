@@ -36,7 +36,7 @@ export function Home(){
           <Button url="#form-contact" className="bg-orange-900">Trocar de contador!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="./src/img/Home1.png" alt="pessoas-conversando-e-analisando-calendario" />
+          <Imagem className="mt-46" src="/img/Home1.png" alt="pessoas-conversando-e-analisando-calendario" />
         </WrapperCol>
 
 
@@ -56,14 +56,14 @@ export function Home(){
         </WrapperCol>
 
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/Home2.png" alt="pessoas-trabalhando-e-vendo-a-evolucao-do-faturamento" />
+          <Imagem className="mt-24" src="/img/Home2.png" alt="pessoas-trabalhando-e-vendo-a-evolucao-do-faturamento" />
         </WrapperCol>
 
       </Wrapper>
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mt-46 mb-64" src="./src/img/Home3.png" alt="mulher-negra-fazendo-os-calculos" />
+          <Imagem className="mt-46 mb-64" src="/img/Home3.png" alt="mulher-negra-fazendo-os-calculos" />
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title><Legend>Nunca mais</Legend> a sua contabilidade vai te dar dor de cabeça!</Title>

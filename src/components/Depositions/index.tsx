@@ -30,12 +30,12 @@ export function Depositions(props: DepositionsProps){
       <div className="cards">
         <div className="card">
           <Quotes size={48} />
-          <img src="./src/img/Stars.png" alt="estrelas" />
+          <img src="/img/Stars.png" alt="estrelas" />
 
           <p>Atuo na área de reestruturações financeiras e hoje conto com a assessoria da Live na busca de soluções fiscais e tributárias para atender meus clientes. A Live possui grande experiência no processo digital, fazendo que os processos sejam muito mais seguros e rápidos. Excelente atendimento.</p>
 
           <div className="users">
-            <img src="./src/img/logotipos/Olitel.png" alt="logotipo" />
+            <img src="/img/logotipos/Olitel.png" alt="logotipo" />
 
             <div>
               <h2>Leandro Teixeira</h2>
@@ -46,12 +46,12 @@ export function Depositions(props: DepositionsProps){
 
         <div className="card">
           <Quotes size={48} />
-          <img src="./src/img/Stars.png" alt="estrelas" />
+          <img src="/img/Stars.png" alt="estrelas" />
 
           <p>Somos Clientes da Live desde antes de virarmos uma empresa, ou clientes de fato. Não temos nenhum tipo de preocupação graças aos profissionais da Live que cuidam de tudo pra nós. Sempre que surge uma dúvida, uma solicitação estão prontamente dispostos a nos atender. Cliente 100% satisfeita!</p>
 
           <div className="users">
-            <img src="./src/img/logotipos/Nunes.jpg" alt="logotipo" />
+            <img src="/img/logotipos/Nunes.jpg" alt="logotipo" />
 
             <div>
               <h2>Jéssica Nunes</h2>

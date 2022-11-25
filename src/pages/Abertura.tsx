@@ -38,13 +38,13 @@ export function Abertura(){
           <Button url="#form-contact" className="bg-orange-900">Quero abrir minha empresa!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="./src/img/Abertura1.png" alt="homem-segurando-uma-caneta-e-um-contrato-para-assinatura" />
+          <Imagem className="mt-46" src="/img/Abertura1.png" alt="homem-segurando-uma-caneta-e-um-contrato-para-assinatura" />
         </WrapperCol>
       </Wrapper>
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/Abertura2.png" alt="homem-preocupado-com-a-burocracia-de-abrir-uma-empresa-sem-contabilidade" />
+          <Imagem className="mt-24" src="/img/Abertura2.png" alt="homem-preocupado-com-a-burocracia-de-abrir-uma-empresa-sem-contabilidade" />
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title>Abrir uma empresa <Legend>não é uma tarefa fácil</Legend> e rápida</Title>
@@ -56,7 +56,7 @@ export function Abertura(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="./src/img/Abertura3.png" alt="checklist-de-atividades-que-o-contador-precisa-se-preocupar" />
+          <Imagem className="mt-24" src="/img/Abertura3.png" alt="checklist-de-atividades-que-o-contador-precisa-se-preocupar" />
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>Não é só sobre abrir uma empresa, mas é também fazer <Legend>escolhas inteligentes</Legend></Title>
@@ -82,7 +82,7 @@ export function Abertura(){
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/Abertura4.png" alt="relatorios-com-o-planejamento-inicial-da-empresa" />
+          <Imagem className="mt-24" src="/img/Abertura4.png" alt="relatorios-com-o-planejamento-inicial-da-empresa" />
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title><Legend>Nossa assessoria está preparada</Legend> para abrir a sua empresa da forma mais rápida e barata</Title>
@@ -96,7 +96,7 @@ export function Abertura(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="./src/img/Abertura5.png" alt="uma-pessoa-calculando-o-dinheiro-economizado" />
+          <Imagem className="mt-24" src="/img/Abertura5.png" alt="uma-pessoa-calculando-o-dinheiro-economizado" />
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>Nossos especialistas vão <Legend>economizar o seu dinheiro!</Legend></Title>
@@ -108,7 +108,7 @@ export function Abertura(){
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/Abertura6.png" alt="empresario-olhando-no-relogio-o-tempo-que-economizou-contratando-a-live" />
+          <Imagem className="mt-24" src="/img/Abertura6.png" alt="empresario-olhando-no-relogio-o-tempo-que-economizou-contratando-a-live" />
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title><Legend>Seu tempo vale ouro!</Legend> Gaste ele com atividades que importam para o seu negócio</Title>

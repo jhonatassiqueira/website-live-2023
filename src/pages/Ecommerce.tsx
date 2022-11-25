@@ -36,7 +36,7 @@ export function Ecommerce(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu E-commerce!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="./src/img/Ecommerce1.png" alt="pessoas-comprando-seus-produtos-na-loja-online" />
+          <Imagem className="mt-46" src="/img/Ecommerce1.png" alt="pessoas-comprando-seus-produtos-na-loja-online" />
         </WrapperCol>
       </Wrapper>
 
@@ -49,7 +49,7 @@ export function Ecommerce(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu E-commerce!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="./src/img/Ecommerce2.png" alt="mulher-de-negocio-analisando-sua-evolucao-nas-vendas" />
+          <Imagem className="mt-24" src="/img/Ecommerce2.png" alt="mulher-de-negocio-analisando-sua-evolucao-nas-vendas" />
         </WrapperCol>
         
 
@@ -66,7 +66,7 @@ export function Ecommerce(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu E-commerce!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/Ecommerce3.png" alt="mulher-sentada-finalizando-as-suas-compras-pelo-aplicativo" />
+          <Imagem className="mt-24" src="/img/Ecommerce3.png" alt="mulher-sentada-finalizando-as-suas-compras-pelo-aplicativo" />
         </WrapperCol>
         
       </Wrapper>

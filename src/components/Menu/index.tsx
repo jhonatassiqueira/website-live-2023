@@ -16,7 +16,7 @@ export function Menu(){
     <nav id='navigation'>
       <div className="wrapper">
         <a href="/" className='logo'>
-          <img src="./src/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
+          <img src="/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
         </a>
 
         <div className="menu">

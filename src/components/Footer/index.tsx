@@ -6,7 +6,7 @@ export function Footer(){
   return(
     <Wrapper id='footer'>
       <a href="/" className='logotipo'>
-        <img src="./src/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
+        <img src="/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
       </a>
 
       <div>  

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, HashRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Abertura } from './pages/Abertura'
 import { AreaTi } from './pages/AreaTi'
 import { BpoFinanceiro } from './pages/BpoFinanceiro'
@@ -12,7 +12,7 @@ import { Representante } from './pages/Representante'
 
 export function AppRoutes(){
   return(
-    <HashRouter>
+    <Router>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/area-ti' element={<AreaTi />} />
@@ -25,6 +25,6 @@ export function AppRoutes(){
         <Route path='/contato' element={<Contato />} />
         <Route path='/obrigado' element={<ObrigadoForm />} />
       </Routes>
-    </HashRouter>
+    </Router>
   )
 }

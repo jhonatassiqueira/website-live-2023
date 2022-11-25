@@ -22,7 +22,7 @@ export function ObrigadoForm(){
           <SubTitle>Recebemos sua mensagem, logo entraremos em contato</SubTitle>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem src="./src/img/TI2.png"></Imagem>
+          <Imagem src="/img/TI2.png"></Imagem>
         </WrapperCol>
       </Wrapper>
     </>

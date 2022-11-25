@@ -36,7 +36,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="./src/img/TI1.png" alt="mulher-negra-sentada-analisando-graficos" />
+          <Imagem className="mt-46" src="/img/TI1.png" alt="mulher-negra-sentada-analisando-graficos" />
         </WrapperCol>
       </Wrapper>
       
@@ -49,7 +49,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="./src/img/TI2.png" alt="homem-branco-alegre-trabalhando-no-sofa" />
+          <Imagem className="mt-24" src="/img/TI2.png" alt="homem-branco-alegre-trabalhando-no-sofa" />
         </WrapperCol>
       </Wrapper>
 
@@ -62,7 +62,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="./src/img/TI3.png" alt="duas-pessoas-trabalhando-no-escritorio" />
+          <Imagem className="mt-24" src="/img/TI3.png" alt="duas-pessoas-trabalhando-no-escritorio" />
         </WrapperCol>
       </Wrapper>
 

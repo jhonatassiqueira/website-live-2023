@@ -36,7 +36,7 @@ export function Planos(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mb-24" src="./src/img/Planos1.png" alt="empresario-feliz-pois-encontrou-uma-contabilidade-que-irá-lhe-ajudar" />
+          <Imagem className="mb-24" src="/img/Planos1.png" alt="empresario-feliz-pois-encontrou-uma-contabilidade-que-irá-lhe-ajudar" />
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>Sabe o quanto nós confiamos no nosso trabalho? Você pode <Legend>sair a qualquer momento...</Legend> mas não vai querer!</Title>

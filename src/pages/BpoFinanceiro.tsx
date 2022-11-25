@@ -41,13 +41,13 @@ export function BpoFinanceiro(){
           <Button url="#form-contact" className="bg-orange-900">Quero Terceirizar meu Financeiro</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem src="./src/img/Bpo1.png" alt="mulher-sorrindo-e-segurando-o-notebook"/>
+          <Imagem src="/img/Bpo1.png" alt="mulher-sorrindo-e-segurando-o-notebook"/>
         </WrapperCol>
       </Wrapper>
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mb-24" src="./src/img/Bpo2.png" alt="empresario-preocupado-com-a-desorganizacao-dos-documentos"/>
+          <Imagem className="mb-24" src="/img/Bpo2.png" alt="empresario-preocupado-com-a-desorganizacao-dos-documentos"/>
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title>A falta de controle está te custando <Legend>tempo e dinheiro</Legend></Title>
@@ -58,7 +58,7 @@ export function BpoFinanceiro(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mb-24" src="./src/img/Bpo3.png" alt="contador-colocando-as-contas-em-dia"/>
+          <Imagem className="mb-24" src="/img/Bpo3.png" alt="contador-colocando-as-contas-em-dia"/>
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>A Receita Federal <Legend>está de olho em tudo!</Legend></Title>
@@ -84,7 +84,7 @@ export function BpoFinanceiro(){
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mb-24" src="./src/img/Bpo4.png" alt="mao-segurando-as-peças-do-dominó"/>
+          <Imagem className="mb-24" src="/img/Bpo4.png" alt="mao-segurando-as-peças-do-dominó"/>
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title>Pensou em contratar algum funcionário para isto? <Legend>Cuidado!</Legend></Title>
@@ -98,7 +98,7 @@ export function BpoFinanceiro(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mb-24" src="./src/img/Bpo5.png" alt="duas-maos-segurando-o-contrato"/>
+          <Imagem className="mb-24" src="/img/Bpo5.png" alt="duas-maos-segurando-o-contrato"/>
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>A <Legend>melhor solução possível</Legend> para sua empresa hoje é o <Legend>BPO Financeiro</Legend></Title>
@@ -112,7 +112,7 @@ export function BpoFinanceiro(){
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mb-24" src="./src/img/Bpo6.png" alt="moedas-plantadas-como-investimento"/>
+          <Imagem className="mb-24" src="/img/Bpo6.png" alt="moedas-plantadas-como-investimento"/>
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title><Legend>Terceirizar</Legend> seu financeiro é de longe a <Legend>solução mais barata!</Legend></Title>
@@ -126,7 +126,7 @@ export function BpoFinanceiro(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mb-24" src="./src/img/Bpo7.png" alt="duas-pessoas-apertando-as-maos-por-ter-fechado-contrato"/>
+          <Imagem className="mb-24" src="/img/Bpo7.png" alt="duas-pessoas-apertando-as-maos-por-ter-fechado-contrato"/>
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>Aproveite nossos <Legend>15 anos de mercado</Legend> e não se preocupe com rotatividade e cursos</Title>

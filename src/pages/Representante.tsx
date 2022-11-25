@@ -35,7 +35,7 @@ export function Representante(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu faturamento!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="./src/img/Representante1.png" alt="duas-pessoas-se-cumprimentando" />
+          <Imagem className="mt-46" src="/img/Representante1.png" alt="duas-pessoas-se-cumprimentando" />
         </WrapperCol>
       </Wrapper>
 
@@ -49,13 +49,13 @@ export function Representante(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu faturamento!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="./src/img/Representante2.png" alt="duas-pessoas-fechando-negocio-e-assinando-contrato" />
+          <Imagem className="mt-24" src="/img/Representante2.png" alt="duas-pessoas-fechando-negocio-e-assinando-contrato" />
         </WrapperCol>
       </Wrapper>
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46 mb-64" src="./src/img/Home3.png" alt="mulher-negra-fazendo-os-calculos" />
+          <Imagem className="mt-46 mb-64" src="/img/Home3.png" alt="mulher-negra-fazendo-os-calculos" />
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title><Legend>Nunca mais</Legend> a sua contabilidade vai te dar dor de cabeça</Title>

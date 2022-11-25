@@ -19,7 +19,7 @@ export function Form(props: FormProps){
 
   return(
     <Wrapper id="form-contact">
-      <img src="./src/img/Rocket.png" alt="Foguete" />
+      <img src="/img/Rocket.png" alt="Foguete" />
 
       <div className="container-form">
         <h1>Contrate agora a assessoria da Live Contabilidade e economize tempo e dinheiro na abertura da sua empresa!</h1>
