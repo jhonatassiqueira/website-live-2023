@@ -3,12 +3,14 @@ import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
 import { CostEmployeeAll } from "../components/CostEmployeeAll";
 import { Depositions } from "../components/Depositions";
+import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { IncludesFinance } from "../components/IncludesFinance";
 import { Legend } from "../components/Legend";
 import { List } from "../components/ListCheck";
 import { ListCostEmployee } from "../components/ListCostEmployee";
+import { Menu } from "../components/Menu";
 import { PhraseCallToAction } from "../components/PhraseCallToAction";
 import { Questions } from "../components/Questions";
 import { StepByStepFinance } from "../components/StepByStepFinance";
@@ -30,6 +32,7 @@ export function BpoFinanceiro(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/bpo-financeiro" />
       </Helmet>
       
+      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -144,6 +147,8 @@ export function BpoFinanceiro(){
       <IncludesFinance />
       <Form service="BPO Financeiro" idForm={21262033} />
       <Questions />
+
+      <Footer />
     </>
   )
 }

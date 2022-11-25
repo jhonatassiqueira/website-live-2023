@@ -2,10 +2,12 @@ import { Helmet } from "react-helmet";
 import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
 import { Depositions } from "../components/Depositions";
+import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { Legend } from "../components/Legend";
 import { List } from "../components/ListCheck";
+import { Menu } from "../components/Menu";
 import { PhraseCallToAction } from "../components/PhraseCallToAction";
 import { Questions } from "../components/Questions";
 import { StepByStepOpening } from "../components/StepByStepOpening";
@@ -27,6 +29,7 @@ export function Abertura(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/abertura-empresa" />
       </Helmet>
       
+      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -123,6 +126,8 @@ export function Abertura(){
       <Depositions url="#form-contact" callToAction="Quero abrir minha empresa!" />
       <Form service="Abertura de Empresa" idForm={21262018} />
       <Questions />
+
+      <Footer />
     </>
   )
 }

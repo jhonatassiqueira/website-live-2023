@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import { AppRoutes } from './App.routes'
 import { Footer } from './components/Footer'
 import { Menu } from './components/Menu'
@@ -17,10 +18,8 @@ export function App() {
   }
 
   return (
-    <>
-      <Menu />
+    <BrowserRouter>
       <AppRoutes />
-      <Footer />
-    </>
+    </BrowserRouter>
   )
 }

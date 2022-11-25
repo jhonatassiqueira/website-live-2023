@@ -3,9 +3,11 @@ import { Advantages } from "../components/Advantages";
 import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
 import { Depositions } from "../components/Depositions";
+import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { Legend } from "../components/Legend";
+import { Menu } from "../components/Menu";
 import { Questions } from "../components/Questions";
 import { SubTitle } from "../components/SubTitle";
 import { Text } from "../components/Text";
@@ -25,6 +27,7 @@ export function Ecommerce(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/ecommerce" />
       </Helmet>
 
+      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -75,6 +78,8 @@ export function Ecommerce(){
       <Depositions url="#form-contact" callToAction="Quero crescer meu E-commerce!" />
       <Form service="E-commerce" idForm={21262003} />
       <Questions />
+
+      <Footer />
     </>
   )
 }

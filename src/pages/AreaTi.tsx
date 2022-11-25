@@ -13,6 +13,8 @@ import { Advantages } from "../components/Advantages";
 import { WrapperCol } from "../components/WrapperCol";
 import { Questions } from "../components/Questions";
 import { Helmet } from "react-helmet";
+import { Footer } from "../components/Footer";
+import { Menu } from "../components/Menu";
 
 export function AreaTi(){
   return(
@@ -25,6 +27,7 @@ export function AreaTi(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/area-ti" />
       </Helmet>
 
+      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -70,6 +73,8 @@ export function AreaTi(){
       <Depositions url="#form-contact" callToAction="Quero a Live como minha parceira!" />
       <Form service="Área de TI" idForm={21261522} />
       <Questions />
+
+      <Footer />
     </>
   )
 }

@@ -1,9 +1,11 @@
 import { Helmet } from "react-helmet";
 import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
+import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { Legend } from "../components/Legend";
+import { Menu } from "../components/Menu";
 import { PlansCard } from "../components/PlansCard";
 import { Questions } from "../components/Questions";
 import { Text } from "../components/Text";
@@ -23,6 +25,7 @@ export function Planos(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/planos" />
       </Helmet>
 
+      <Menu />
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -50,6 +53,8 @@ export function Planos(){
       
       <Form service="Planos" idForm={21262039} />
       <Questions />
+
+      <Footer />
     </>
   )
 }

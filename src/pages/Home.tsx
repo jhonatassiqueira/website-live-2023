@@ -2,9 +2,11 @@ import { Helmet } from "react-helmet";
 import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
 import { Depositions } from "../components/Depositions";
+import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { Legend } from "../components/Legend";
+import { Menu } from "../components/Menu";
 import { Questions } from "../components/Questions";
 import { Services } from "../components/Services";
 import { SubTitle } from "../components/SubTitle";
@@ -24,6 +26,8 @@ export function Home(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/" />
       </Helmet>
       
+      <Menu />
+
       <WhatsApp url="https://api.whatsapp.com/send?phone=5511961485582&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20o%20contador!" />
       <ButtonUp />
       
@@ -83,6 +87,8 @@ export function Home(){
       <Form service="Geral" idForm={21261400} />
 
       <Questions />
+
+      <Footer />
     </>
   )
 }

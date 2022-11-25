@@ -1,5 +1,7 @@
 import { Helmet } from "react-helmet";
+import { Footer } from "../components/Footer";
 import { Imagem } from "../components/Imagem";
+import { Menu } from "../components/Menu";
 import { SubTitle } from "../components/SubTitle";
 import { Title } from "../components/Title";
 import { Wrapper } from "../components/Wrapper";
@@ -16,6 +18,7 @@ export function ObrigadoForm(){
         <meta property="og:url" content="https://www.livecontabilidade.com.br/obrigado" />
       </Helmet>
 
+      <Menu />
       <Wrapper id="hero" className="wrapper-thanks bg-gradient">
         <WrapperCol className="col-a">
           <Title>Muito obrigado</Title>
@@ -25,6 +28,8 @@ export function ObrigadoForm(){
           <Imagem src="/img/TI2.png"></Imagem>
         </WrapperCol>
       </Wrapper>
+
+      <Footer />
     </>
   )
 }
