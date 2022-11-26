@@ -1,5 +1,6 @@
 {
   "name": "mywebsite",
+  "homepage": "https://www.olibras.livecontabilidade.com.br",
   "private": true,
   "version": "0.1.0",
   "type": "module",
