@@ -5,6 +5,8 @@ import { Title } from "../components/Title";
 import { Wrapper } from "../components/Wrapper";
 import { WrapperCol } from "../components/WrapperCol";
 
+import Obrigado1 from '../img/TI2.png';
+
 export function ObrigadoForm(){
   return(
     <>
@@ -22,7 +24,7 @@ export function ObrigadoForm(){
           <SubTitle>Recebemos sua mensagem, logo entraremos em contato</SubTitle>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem src="/img/TI2.png"></Imagem>
+          <Imagem src={ Obrigado1 } ></Imagem>
         </WrapperCol>
       </Wrapper>
     </>

@@ -14,6 +14,10 @@ import { WhatsApp } from "../components/WhatsApp";
 import { Wrapper } from "../components/Wrapper";
 import { WrapperCol } from "../components/WrapperCol";
 
+import PJ1 from '../img/PJ1.png';
+import PJ2 from '../img/PJ2.png';
+import PJ3 from '../img/PJ3.png';
+
 export function PJ(){
   return(
     <>
@@ -36,7 +40,7 @@ export function PJ(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="/img/PJ1.png" alt="moça-trabalhando-no-notebook" />
+          <Imagem className="mt-46" src={ PJ1 } alt="moça-trabalhando-no-notebook" />
         </WrapperCol>
       </Wrapper>
 
@@ -49,7 +53,7 @@ export function PJ(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="/img/PJ2.png" alt="equipe-trabalhando-com-suas-ferramentas" />
+          <Imagem className="mt-24" src={ PJ2 } alt="equipe-trabalhando-com-suas-ferramentas" />
         </WrapperCol>
       </Wrapper>
 
@@ -63,7 +67,7 @@ export function PJ(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="/img/PJ3.png" alt="mulher-sentada-verificando-suas-ordens-de-servicos" />
+          <Imagem className="mt-24" src={ PJ3 } alt="mulher-sentada-verificando-suas-ordens-de-servicos" />
         </WrapperCol>
       </Wrapper>
 

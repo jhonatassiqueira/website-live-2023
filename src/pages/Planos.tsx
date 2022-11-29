@@ -12,6 +12,8 @@ import { WhatsApp } from "../components/WhatsApp";
 import { Wrapper } from "../components/Wrapper";
 import { WrapperCol } from "../components/WrapperCol";
 
+import Planos1 from '../img/Planos1.png';
+
 export function Planos(){
   return(
     <>
@@ -36,7 +38,7 @@ export function Planos(){
 
       <Wrapper>
         <WrapperCol className="col-a">
-          <Imagem className="mb-24" src="/img/Planos1.png" alt="empresario-feliz-pois-encontrou-uma-contabilidade-que-irá-lhe-ajudar" />
+          <Imagem className="mb-24" src={ Planos1 } alt="empresario-feliz-pois-encontrou-uma-contabilidade-que-irá-lhe-ajudar" />
         </WrapperCol>
         <WrapperCol className="col-b">
           <Title>Sabe o quanto nós confiamos no nosso trabalho? Você pode <Legend>sair a qualquer momento...</Legend> mas não vai querer!</Title>

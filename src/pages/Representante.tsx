@@ -14,6 +14,10 @@ import { WhatsApp } from "../components/WhatsApp";
 import { Wrapper } from "../components/Wrapper";
 import { WrapperCol } from "../components/WrapperCol";
 
+import Representante1 from '../img/Representante1.png';
+import Representante2 from '../img/Representante2.png';
+import Representante3 from '../img/Home3.png';
+
 export function Representante(){
   return(
     <>
@@ -36,7 +40,7 @@ export function Representante(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu faturamento!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="/img/Representante1.png" alt="duas-pessoas-se-cumprimentando" />
+          <Imagem className="mt-46" src={ Representante1 } alt="duas-pessoas-se-cumprimentando" />
         </WrapperCol>
       </Wrapper>
 
@@ -50,13 +54,13 @@ export function Representante(){
           <Button url="#form-contact" className="bg-orange-900">Quero crescer meu faturamento!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="/img/Representante2.png" alt="duas-pessoas-fechando-negocio-e-assinando-contrato" />
+          <Imagem className="mt-24" src={ Representante2 } alt="duas-pessoas-fechando-negocio-e-assinando-contrato" />
         </WrapperCol>
       </Wrapper>
 
       <Wrapper>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46 mb-64" src="/img/Home3.png" alt="mulher-negra-fazendo-os-calculos" />
+          <Imagem className="mt-46 mb-64" src={ Representante3 } alt="mulher-negra-fazendo-os-calculos" />
         </WrapperCol>
         <WrapperCol className="col-a">
           <Title><Legend>Nunca mais</Legend> a sua contabilidade vai te dar dor de cabeça</Title>

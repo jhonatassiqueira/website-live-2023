@@ -14,6 +14,10 @@ import { WrapperCol } from "../components/WrapperCol";
 import { Questions } from "../components/Questions";
 import { Helmet } from "react-helmet";
 
+import TI1 from '../img/TI1.png';
+import TI2 from '../img/TI2.png';
+import TI3 from '../img/TI3.png';
+
 export function AreaTi(){
   return(
     <>
@@ -36,7 +40,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="/img/TI1.png" alt="mulher-negra-sentada-analisando-graficos" />
+          <Imagem className="mt-46" src={ TI1 } alt="mulher-negra-sentada-analisando-graficos" />
         </WrapperCol>
       </Wrapper>
       
@@ -49,7 +53,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-a">
-          <Imagem className="mt-24" src="/img/TI2.png" alt="homem-branco-alegre-trabalhando-no-sofa" />
+          <Imagem className="mt-24" src={ TI2 } alt="homem-branco-alegre-trabalhando-no-sofa" />
         </WrapperCol>
       </Wrapper>
 
@@ -62,7 +66,7 @@ export function AreaTi(){
           <Button url="#form-contact" className="bg-orange-900">Quero a Live como minha parceira!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-24" src="/img/TI3.png" alt="duas-pessoas-trabalhando-no-escritorio" />
+          <Imagem className="mt-24" src={ TI3 } alt="duas-pessoas-trabalhando-no-escritorio" />
         </WrapperCol>
       </Wrapper>
 
