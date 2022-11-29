@@ -67,7 +67,7 @@ export function Menu(){
               </a>
             </li>
             <li>
-              <a href='/contato'>Contato</a>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
 
