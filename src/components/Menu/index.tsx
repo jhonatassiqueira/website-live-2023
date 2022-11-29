@@ -28,7 +28,7 @@ export function Menu(){
               <a>Segmentos
                 <ul>
                   <li>
-                    <Link to="/area-ti">Área de TI</Link>
+                    <Link to="/area-ti?tab=one" preventScrollReset={true} >Área de TI</Link>
                   </li>
                   <li>
                     <Link to="/ecommerce">E-commerce</Link>
