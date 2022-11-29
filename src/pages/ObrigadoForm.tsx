@@ -1,7 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Footer } from "../components/Footer";
 import { Imagem } from "../components/Imagem";
-import { Menu } from "../components/Menu";
 import { SubTitle } from "../components/SubTitle";
 import { Title } from "../components/Title";
 import { Wrapper } from "../components/Wrapper";

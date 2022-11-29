@@ -3,6 +3,7 @@ import { Button } from '../Button';
 import './style.css'
 
 import Logo from '../../img/logotipos/Live.png';
+import { Link } from 'react-router-dom';
 
 export function Menu(){
 
@@ -27,16 +28,16 @@ export function Menu(){
               <a>Segmentos
                 <ul>
                   <li>
-                    <a href="/area-ti">Área de TI</a>
+                    <Link to="/area-ti">Área de TI</Link>
                   </li>
                   <li>
-                    <a href="/ecommerce">E-commerce</a>
+                    <Link to="/ecommerce">E-commerce</Link>
                   </li>
                   <li>
-                    <a href="/prestador-de-servicos">Prestador de Serviços</a>
+                    <Link to="/prestador-de-servicos">Prestador de Serviços</Link>
                   </li>
                   <li>
-                    <a href="/representante-comercial">Representante Comercial</a>
+                    <Link to="/representante-comercial">Representante Comercial</Link>
                   </li>
                 </ul>
               </a>
@@ -45,7 +46,7 @@ export function Menu(){
               <a>Contrate
                 <ul>
                   <li>
-                    <a href="/abertura-empresa">Abra sua empresa</a>
+                    <Link to="/abertura-empresa">Abra sua empresa</Link>
                   </li>
                   <li>
                     <a href="https://cardsinova.gfsis.com.br/gestaofacil/loja/index?local=9&indicacao=43431&idProduto=12&videoconferencia=sim&ocultarValidacao=sim" target="_blank">Certificado e-CPF A1</a>
@@ -57,10 +58,10 @@ export function Menu(){
                     <a href="https://lp.cora.com.br/afiliados/live-contabilidade/" target="_blank">Conta Bancária Gratuita</a>
                   </li>
                   <li>
-                    <a href="/bpo-financeiro">Terceirização Financeira</a>
+                    <Link to="/bpo-financeiro">Terceirização Financeira</Link>
                   </li>
                   <li>
-                    <a href="/planos">Planos</a>
+                    <Link to="/planos">Planos</Link>
                   </li>
                 </ul>
               </a>

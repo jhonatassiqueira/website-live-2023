@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Abertura } from './pages/Abertura'
-import { AreaTi } from './pages/AreaTI/AreaTi'
+import { AreaTi } from './pages/AreaTi'
 import { BpoFinanceiro } from './pages/BpoFinanceiro'
 import { Contato } from './pages/Contato'
 import { Ecommerce } from './pages/Ecommerce'

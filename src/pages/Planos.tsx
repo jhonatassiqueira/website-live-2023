@@ -1,11 +1,9 @@
 import { Helmet } from "react-helmet";
 import { Button } from "../components/Button";
 import { ButtonUp } from "../components/ButtonUp";
-import { Footer } from "../components/Footer";
 import { Form } from "../components/Form";
 import { Imagem } from "../components/Imagem";
 import { Legend } from "../components/Legend";
-import { Menu } from "../components/Menu";
 import { PlansCard } from "../components/PlansCard";
 import { Questions } from "../components/Questions";
 import { Text } from "../components/Text";

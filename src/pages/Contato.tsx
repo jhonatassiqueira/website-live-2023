@@ -1,7 +1,5 @@
 import { ButtonUp } from "../components/ButtonUp";
 import { DataCompany } from "../components/DataCompany";
-import { Footer } from "../components/Footer";
-import { Menu } from "../components/Menu";
 import { WhatsApp } from "../components/WhatsApp";
 
 export function Contato(){
