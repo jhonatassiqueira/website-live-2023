@@ -38,7 +38,7 @@ export function Home(){
           <Button url="#form-contact" className="bg-orange-900">Trocar de contador!</Button>
         </WrapperCol>
         <WrapperCol className="col-b">
-          <Imagem className="mt-46" src="/img/Home1.png" alt="pessoas-conversando-e-analisando-calendario" />
+          <Imagem className="mt-46" src="./img/Home1.png" alt="pessoas-conversando-e-analisando-calendario" />
         </WrapperCol>
 
 
