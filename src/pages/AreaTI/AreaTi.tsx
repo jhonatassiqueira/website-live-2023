@@ -1,20 +1,20 @@
-import { Button } from "../components/Button";
-import { ButtonUp } from "../components/ButtonUp";
-import { Imagem } from "../components/Imagem";
-import { SubTitle } from "../components/SubTitle";
-import { Title } from "../components/Title";
-import { Text } from "../components/Text";
-import { WhatsApp } from "../components/WhatsApp";
-import { Wrapper } from "../components/Wrapper";
-import { Depositions } from "../components/Depositions";
-import { Form } from "../components/Form";
-import { Legend } from "../components/Legend";
-import { Advantages } from "../components/Advantages";
-import { WrapperCol } from "../components/WrapperCol";
-import { Questions } from "../components/Questions";
+import { Button } from "../../components/Button";
+import { ButtonUp } from "../../components/ButtonUp";
+import { Imagem } from "../../components/Imagem";
+import { SubTitle } from "../../components/SubTitle";
+import { Title } from "../../components/Title";
+import { Text } from "../../components/Text";
+import { WhatsApp } from "../../components/WhatsApp";
+import { Wrapper } from "../../components/Wrapper";
+import { Depositions } from "../../components/Depositions";
+import { Form } from "../../components/Form";
+import { Legend } from "../../components/Legend";
+import { Advantages } from "../../components/Advantages";
+import { WrapperCol } from "../../components/WrapperCol";
+import { Questions } from "../../components/Questions";
 import { Helmet } from "react-helmet";
-import { Footer } from "../components/Footer";
-import { Menu } from "../components/Menu";
+import { Footer } from "../../components/Footer";
+import { Menu } from "../../components/Menu";
 
 export function AreaTi(){
   return(

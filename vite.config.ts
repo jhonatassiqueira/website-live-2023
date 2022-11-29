@@ -15,7 +15,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         'main': resolve(root, 'index.html'),
-        'area-ti': resolve(root, 'index.html')
+        'area-ti': resolve(root, 'pages/AreaTI','index.html')
       }
     }
   }
