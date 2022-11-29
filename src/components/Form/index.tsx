@@ -4,6 +4,8 @@ import IMask from 'imask';
 
 import './style.css'
 
+import Foguete from '../../img/Rocket.png';
+
 interface FormProps {
   service: string;
   idForm: number;
@@ -19,7 +21,7 @@ export function Form(props: FormProps){
 
   return(
     <Wrapper id="form-contact">
-      <img src="/img/Rocket.png" alt="Foguete" />
+      <img src={ Foguete } alt="Foguete" />
 
       <div className="container-form">
         <h1>Contrate agora a assessoria da Live Contabilidade e economize tempo e dinheiro na abertura da sua empresa!</h1>

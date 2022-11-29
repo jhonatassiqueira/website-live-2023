@@ -2,11 +2,13 @@ import { FacebookLogo, InstagramLogo, LinkedinLogo, YoutubeLogo } from 'phosphor
 import { Wrapper } from '../Wrapper'
 import './style.css'
 
+import Logo from '../../img/logotipos/Live.png';
+
 export function Footer(){
   return(
     <Wrapper id='footer'>
       <a href="/" className='logotipo'>
-        <img src="/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
+        <img src={ Logo } alt="logotipo-da-live-contabilidade" />
       </a>
 
       <div>  

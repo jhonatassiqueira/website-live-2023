@@ -4,6 +4,11 @@ import { Wrapper } from '../Wrapper'
 
 import './style.css'
 
+import LogoOlitel from '../../img/logotipos/Olitel.png';
+import LogoNunes from '../../img/logotipos/Nunes.jpg';
+import Stars from '../../img/Stars.png';
+
+
 interface DepositionsProps {
   callToAction: string;
   url: string;
@@ -30,12 +35,12 @@ export function Depositions(props: DepositionsProps){
       <div className="cards">
         <div className="card">
           <Quotes size={48} />
-          <img src="/img/Stars.png" alt="estrelas" />
+          <img src={ Stars } alt="estrelas" />
 
           <p>Atuo na área de reestruturações financeiras e hoje conto com a assessoria da Live na busca de soluções fiscais e tributárias para atender meus clientes. A Live possui grande experiência no processo digital, fazendo que os processos sejam muito mais seguros e rápidos. Excelente atendimento.</p>
 
           <div className="users">
-            <img src="/img/logotipos/Olitel.png" alt="logotipo" />
+            <img src={ LogoOlitel } alt="logotipo" />
 
             <div>
               <h2>Leandro Teixeira</h2>
@@ -46,12 +51,12 @@ export function Depositions(props: DepositionsProps){
 
         <div className="card">
           <Quotes size={48} />
-          <img src="/img/Stars.png" alt="estrelas" />
+          <img src={ Stars } alt="estrelas" />
 
           <p>Somos Clientes da Live desde antes de virarmos uma empresa, ou clientes de fato. Não temos nenhum tipo de preocupação graças aos profissionais da Live que cuidam de tudo pra nós. Sempre que surge uma dúvida, uma solicitação estão prontamente dispostos a nos atender. Cliente 100% satisfeita!</p>
 
           <div className="users">
-            <img src="/img/logotipos/Nunes.jpg" alt="logotipo" />
+            <img src={ LogoNunes } alt="logotipo" />
 
             <div>
               <h2>Jéssica Nunes</h2>

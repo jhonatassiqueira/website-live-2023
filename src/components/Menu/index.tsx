@@ -2,6 +2,8 @@ import { List, X } from 'phosphor-react'
 import { Button } from '../Button';
 import './style.css'
 
+import Logo from '../../img/logotipos/Live.png';
+
 export function Menu(){
 
   function openMenu(){
@@ -16,7 +18,7 @@ export function Menu(){
     <nav id='navigation'>
       <div className="wrapper">
         <a href="/" className='logo'>
-          <img src="/img/logotipos/Live.png" alt="logotipo-da-live-contabilidade" />
+          <img src={ Logo } alt="logotipo-da-live-contabilidade" />
         </a>
 
         <div className="menu">
